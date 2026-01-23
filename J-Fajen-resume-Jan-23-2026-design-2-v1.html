@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joseph Fajen - Senior Technical Writer</title>
+    <!-- Print to PDF for best results: Use browser print function, select "Save as PDF" -->
+    <style>
+        @page {
+            size: letter;
+            margin: 0.5in;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 10pt;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            color: #2d2d2d;
+            line-height: 1.45;
+            background: #fff;
+        }
+
+        .container {
+            display: flex;
+            max-width: 8.5in;
+            min-height: 11in;
+            margin: 0 auto;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 22%;
+            background: #f0f4f7;
+            padding: 0.6in 0.35in;
+            border-right: 2px solid #4a6b8a;
+        }
+
+        .sidebar h1 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 0.1in;
+            letter-spacing: -0.02em;
+        }
+
+        .sidebar .role {
+            font-size: 0.85rem;
+            color: #4a6b8a;
+            font-weight: 600;
+            margin-bottom: 0.25in;
+        }
+
+        .contact-info {
+            font-size: 0.8rem;
+            margin-bottom: 0.35in;
+        }
+
+        .contact-info p {
+            margin-bottom: 0.06in;
+            color: #3d3d3d;
+        }
+
+        .contact-info a {
+            color: #4a6b8a;
+            text-decoration: none;
+        }
+
+        .sidebar-section {
+            margin-bottom: 0.3in;
+        }
+
+        .sidebar-section h3 {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #4a6b8a;
+            margin-bottom: 0.12in;
+            border-bottom: 1px solid #c8d5e0;
+            padding-bottom: 0.05in;
+        }
+
+        .sidebar-section p,
+        .sidebar-section li {
+            font-size: 0.75rem;
+            color: #3d3d3d;
+            margin-bottom: 0.04in;
+        }
+
+        .sidebar-section ul {
+            list-style: none;
+        }
+
+        .sidebar-section li {
+            padding-left: 0.1in;
+            position: relative;
+        }
+
+        .sidebar-section li::before {
+            content: "\2022";
+            color: #4a6b8a;
+            position: absolute;
+            left: 0;
+        }
+
+        .education-entry {
+            font-size: 0.75rem;
+        }
+
+        .education-entry .degree {
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        .education-entry .school {
+            color: #5a5a5a;
+            font-style: italic;
+        }
+
+        /* Main Content */
+        .main {
+            flex: 1;
+            padding: 0.5in 0.45in 0.4in 0.45in;
+        }
+
+        .approach {
+            margin-bottom: 0.3in;
+            padding-bottom: 0.2in;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .approach h2 {
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            color: #4a6b8a;
+            margin-bottom: 0.1in;
+        }
+
+        .approach p {
+            font-size: 0.95rem;
+        }
+
+        .approach strong {
+            color: #1a1a1a;
+        }
+
+        .stories-header {
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            color: #4a6b8a;
+            margin-bottom: 0.18in;
+        }
+
+        .story {
+            margin-bottom: 0.28in;
+        }
+
+        .story h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.08in;
+            line-height: 1.3;
+        }
+
+        .story-subtitle {
+            font-size: 0.8rem;
+            color: #5a5a5a;
+            font-style: italic;
+            margin-bottom: 0.1in;
+        }
+
+        .story-section {
+            margin-bottom: 0.08in;
+        }
+
+        .story-section strong {
+            color: #4a6b8a;
+            font-size: 0.85rem;
+        }
+
+        .story-section p {
+            font-size: 0.9rem;
+            margin-left: 0;
+        }
+
+        .story-url {
+            font-size: 0.75rem;
+            color: #6a6a6a;
+            word-break: break-all;
+        }
+
+        .story-url a {
+            color: #6a6a6a;
+            text-decoration: none;
+        }
+
+        .earlier {
+            margin-top: 0.25in;
+            padding-top: 0.18in;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .earlier h2 {
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            color: #4a6b8a;
+            margin-bottom: 0.12in;
+        }
+
+        .earlier-role {
+            margin-bottom: 0.15in;
+        }
+
+        .earlier-role h4 {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.04in;
+        }
+
+        .earlier-role ul {
+            margin-left: 0.2in;
+            font-size: 0.85rem;
+        }
+
+        .earlier-role li {
+            margin-bottom: 0.03in;
+        }
+
+        .earlier-summary {
+            font-size: 0.85rem;
+            color: #3d3d3d;
+        }
+
+        .earlier-summary strong {
+            color: #1a1a1a;
+        }
+
+        /* Print Styles */
+        @media print {
+            html {
+                font-size: 10pt;
+            }
+
+            body {
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+
+            .container {
+                min-height: auto;
+            }
+
+            .sidebar {
+                background: #f0f4f7 !important;
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+
+            .story-url a {
+                color: #6a6a6a;
+            }
+
+            a {
+                text-decoration: none;
+            }
+        }
+
+        /* Screen adjustments */
+        @media screen {
+            body {
+                background: #e8e8e8;
+                padding: 0.5in 0;
+            }
+
+            .container {
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h1>JOSEPH FAJEN</h1>
+            <p class="role">Senior Technical Writer</p>
+
+            <div class="contact-info">
+                <p>Portland, OR</p>
+                <p>530-264-6927</p>
+                <p>joefajen@gmail.com</p>
+                <p><a href="https://www.linkedin.com/in/josephfajen7782211/">LinkedIn Profile</a></p>
+            </div>
+
+            <div class="sidebar-section">
+                <h3>Technical Toolkit</h3>
+                <ul>
+                    <li>Docusaurus, MDX</li>
+                    <li>OpenAPI/Swagger</li>
+                    <li>TypeScript, Python</li>
+                    <li>Next.js, GitHub</li>
+                    <li>Vector Databases</li>
+                    <li>LLM APIs (OpenAI, Anthropic)</li>
+                    <li>RAG Pipelines</li>
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h3>Domains</h3>
+                <ul>
+                    <li>Blockchain/Smart Contracts</li>
+                    <li>REST APIs</li>
+                    <li>Video Systems</li>
+                    <li>Information Architecture</li>
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h3>Education</h3>
+                <div class="education-entry">
+                    <p class="degree">B.A., History and Philosophy</p>
+                    <p class="school">U.C. Davis, 1989</p>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main">
+            <section class="approach">
+                <h2>My Approach</h2>
+                <p><strong>I don't just write documentation -- I OWN it.</strong> When I encounter documentation challenges that require systematic solutions, I build the tools to solve them. Over 20+ years, I've learned that great documentation isn't just about clear writing -- it's about understanding users who don't exist yet, building for their needs, and creating authoritative resources that transform confusion into clarity.</p>
+            </section>
+
+            <h2 class="stories-header">The Stories Behind the Work</h2>
+
+            <article class="story">
+                <h3>The "Uncle's Garage" Transformation</h3>
+                <p class="story-subtitle">Marlowe Documentation, IOHK</p>
+                <div class="story-section">
+                    <p><strong>The Challenge:</strong> Cardano's Marlowe smart contract platform had documentation scattered across multiple repositories -- like walking into an uncle's garage where valuable tools are buried under years of accumulated chaos.</p>
+                </div>
+                <div class="story-section">
+                    <p><strong>What I Did:</strong> I took sole ownership of the documentation transformation. Over 13 months, I authored 17,900+ lines of code across 124 files, accounting for 78% of all repository commits. I designed an information architecture with 5 distinct user personas and visual pathway diagrams, created a 91-schema OpenAPI specification documenting the 7-service runtime architecture, and established weekly engineering syncs that resulted in 59 merged PRs.</p>
+                </div>
+                <div class="story-section">
+                    <p><strong>The Result:</strong> A unified, authoritative documentation site that transformed fragmented chaos into a clear, navigable resource. Built with a pre-adoption strategy -- comprehensive docs ready for users who don't exist yet.</p>
+                </div>
+                <p class="story-url"><a href="https://docs.marlowe.iohk.io/docs/introduction">docs.marlowe.iohk.io/docs/introduction</a></p>
+            </article>
+
+            <article class="story">
+                <h3>When Documentation Needed AI</h3>
+                <p class="story-subtitle">Essential Cardano Assistant</p>
+                <div class="story-section">
+                    <p><strong>The Challenge:</strong> The Cardano ecosystem spans thousands of documents across dozens of sources. Users needed instant, accurate answers -- but any AI assistant in this space risked hallucination, which in blockchain could mean real financial consequences.</p>
+                </div>
+                <div class="story-section">
+                    <p><strong>What I Did:</strong> I built a production AI chatbot end-to-end, solo. I ingested 2,500 documents from 8 sources, built a complete extraction pipeline, and iterated through 20+ system prompt versions until achieving zero detectable hallucination and 100% fact accuracy across targeted test queries. Deployed with Next.js, Railway infrastructure -- 91 commits from concept to production.</p>
+                </div>
+                <div class="story-section">
+                    <p><strong>The Result:</strong> A production-ready AI assistant that provides accurate, trustworthy answers to complex blockchain questions.</p>
+                </div>
+                <p class="story-url"><a href="https://powerful-motivation-production.up.railway.app/">powerful-motivation-production.up.railway.app</a></p>
+            </article>
+
+            <article class="story">
+                <h3>Building Tools When Documentation Requires It</h3>
+                <p class="story-subtitle">ChatDoc Toolkit</p>
+                <div class="story-section">
+                    <p><strong>The Challenge:</strong> Community questions on Discord often revealed documentation gaps, but there was no systematic way to identify patterns and transform them into actionable content.</p>
+                </div>
+                <div class="story-section">
+                    <p><strong>What I Did:</strong> I built ChatDoc-InsightMiner-PromptLab -- a toolkit that analyzes community conversations, identifies recurring questions, and helps derive documentation from real user needs. Created a multi-LLM comparison framework testing OpenAI, Anthropic, and Gemini APIs.</p>
+                </div>
+                <div class="story-section">
+                    <p><strong>The Result:</strong> 25+ FAQ entries derived from Discord analysis, plus a reusable methodology for community-sourced documentation.</p>
+                </div>
+            </article>
+
+            <section class="earlier">
+                <h2>Earlier Chapters</h2>
+                <div class="earlier-role">
+                    <h4>Sr. Technical Writer, AJA Video Systems -- 2016 to 2022</h4>
+                    <ul>
+                        <li>Created the company's first comprehensive REST API documentation</li>
+                        <li>Documented complex multi-channel video systems and HD/4K conversion gateways</li>
+                        <li>Implemented structured review processes and advocated for proper team tooling</li>
+                    </ul>
+                </div>
+                <p class="earlier-summary"><strong>15 Years Building Documentation Expertise -- 2001 to 2015:</strong> From HP consulting to startup API documentation to transforming a college's static website into a dynamic database-driven platform -- each role added another dimension to understanding how documentation serves users.</p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
