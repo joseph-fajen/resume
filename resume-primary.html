@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joseph Fajen - Staff Technical Writer</title>
+    <style>
+        @page {
+            size: letter;
+            margin: 0.6in 0.65in;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            font-size: 10pt;
+            line-height: 1.5;
+            color: #2a2a2a;
+            background-color: #fff;
+        }
+
+        /* Header */
+        header {
+            margin-bottom: 0.2in;
+        }
+
+        h1 {
+            font-size: 26pt;
+            font-weight: 300;
+            letter-spacing: -0.01em;
+            color: #1a1a1a;
+            margin-bottom: 0.02in;
+        }
+
+        .title {
+            font-size: 11pt;
+            font-weight: 500;
+            color: #4a5568;
+            margin-bottom: 0.1in;
+        }
+
+        .contact {
+            font-size: 9pt;
+            color: #555;
+        }
+
+        .contact a {
+            color: #4a5568;
+            text-decoration: none;
+        }
+
+        .contact span {
+            margin: 0 0.4em;
+            color: #bbb;
+        }
+
+        .divider {
+            width: 2in;
+            height: 2px;
+            background-color: #4a5568;
+            margin-top: 0.15in;
+        }
+
+        /* Summary Section */
+        .summary {
+            margin: 0.2in 0 0.2in 0;
+            padding-left: 0.2in;
+            border-left: 2px solid #4a5568;
+        }
+
+        .summary p {
+            font-size: 10.5pt;
+            line-height: 1.6;
+            color: #3d3d3d;
+        }
+
+        /* Section Headers */
+        h2 {
+            font-size: 9pt;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: #718096;
+            margin-bottom: 0.12in;
+            margin-top: 0.22in;
+            padding-bottom: 0.05in;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        /* Skills Section */
+        .skills {
+            margin-bottom: 0.15in;
+        }
+
+        .skill-row {
+            display: flex;
+            margin-bottom: 0.04in;
+            font-size: 9.5pt;
+            line-height: 1.4;
+        }
+
+        .skill-label {
+            flex-shrink: 0;
+            width: 1in;
+            font-weight: 600;
+            color: #4a5568;
+        }
+
+        .skill-value {
+            color: #333;
+        }
+
+        /* Experience Sections */
+        .experience {
+            margin-bottom: 0.2in;
+            page-break-inside: avoid;
+        }
+
+        .experience-header {
+            margin-bottom: 0.08in;
+        }
+
+        .company-name {
+            font-size: 11pt;
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        .job-title {
+            font-size: 10pt;
+            color: #4a5568;
+            font-weight: 500;
+        }
+
+        .company-description {
+            font-size: 9.5pt;
+            color: #666;
+            font-style: italic;
+            margin: 0.06in 0;
+            line-height: 1.45;
+        }
+
+        .experience-summary {
+            font-size: 10pt;
+            line-height: 1.5;
+            color: #333;
+            margin-bottom: 0.1in;
+        }
+
+        .experience-bullets {
+            list-style: none;
+            padding-left: 0.15in;
+            border-left: 1px solid #d1d5db;
+        }
+
+        .experience-bullets li {
+            margin-bottom: 0.06in;
+            line-height: 1.45;
+            color: #333;
+            position: relative;
+            padding-left: 0.12in;
+            font-size: 9.5pt;
+        }
+
+        .experience-bullets li::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.45em;
+            width: 4px;
+            height: 4px;
+            background-color: #4a5568;
+            border-radius: 50%;
+        }
+
+        /* Earlier Experience */
+        .earlier-experience {
+            margin-bottom: 0.15in;
+        }
+
+        .earlier-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .earlier-list li {
+            font-size: 9.5pt;
+            margin-bottom: 0.03in;
+            color: #444;
+            padding-left: 0.12in;
+            position: relative;
+        }
+
+        .earlier-list li::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.45em;
+            width: 3px;
+            height: 3px;
+            background-color: #a0aec0;
+            border-radius: 50%;
+        }
+
+        /* Education */
+        .education {
+            font-size: 10pt;
+            color: #333;
+        }
+
+        /* Print optimization */
+        @media print {
+            body {
+                background-color: white;
+            }
+
+            .experience {
+                page-break-inside: avoid;
+            }
+
+            h2 {
+                page-break-after: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Joseph Fajen</h1>
+        <div class="title">Staff Technical Writer | Documentation Systems Architect | Developer Documentation</div>
+        <div class="contact">
+            Portland, OR<span>|</span>530-264-6927<span>|</span>joefajen@gmail.com<span>|</span><a href="https://www.linkedin.com/in/josephfajen7782211/">LinkedIn</a>
+        </div>
+        <div class="divider"></div>
+    </header>
+
+    <section class="summary">
+        <p>Technical writer who builds tools—documentation systems, full-stack AI assistants, custom agents. I dig deep into complex systems to translate chaos into structure and create authoritative sources of truth.</p>
+    </section>
+
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="skill-row">
+            <span class="skill-label">Documentation</span>
+            <span class="skill-value">Developer Documentation, Docusaurus, MDX, OpenAPI/Swagger, Information Architecture, Docs-as-Code Workflows</span>
+        </div>
+        <div class="skill-row">
+            <span class="skill-label">Development</span>
+            <span class="skill-value">Python, TypeScript, JavaScript, Next.js, React, GitHub Actions</span>
+        </div>
+        <div class="skill-row">
+            <span class="skill-label">AI/ML</span>
+            <span class="skill-value">LLM APIs (OpenAI, Anthropic, Gemini), Vector Databases, RAG Pipelines</span>
+        </div>
+        <div class="skill-row">
+            <span class="skill-label">Current Focus</span>
+            <span class="skill-value">Claude Code, Pydantic AI, Claude Agents SDK, MCP servers</span>
+        </div>
+        <div class="skill-row">
+            <span class="skill-label">Platforms</span>
+            <span class="skill-value">Git/GitHub, VS Code, Jira</span>
+        </div>
+        <div class="skill-row">
+            <span class="skill-label">Domains</span>
+            <span class="skill-value">Blockchain/Smart Contracts, REST APIs, Video Systems</span>
+        </div>
+    </div>
+
+    <h2>Experience</h2>
+
+    <div class="experience">
+        <div class="experience-header">
+            <div class="company-name">Input Output Global — Senior Technical Writer</div>
+            <div class="job-title">2022–2025</div>
+        </div>
+        <p class="company-description">Input Output Global (IOG), originally IOHK, is the blockchain research and engineering company that created and maintains the Cardano protocol.</p>
+        <p class="experience-summary">Owned end-to-end documentation for complex smart contract and API platforms, digging deep into distributed systems architecture to translate complexity into clarity. Transformed fragmented multi-repository content into unified, authoritative resources designed for diverse developer audiences.</p>
+        <ul class="experience-bullets">
+            <li>Authored and curated 17,900+ lines of documentation for the Marlowe smart contract platform across 124 files over 13 months, accounting for 78% of repository commits and 59 merged PRs—transforming fragmented multi-repository content into a unified resource.</li>
+            <li>Designed information architecture with 5 user personas and visual pathway diagrams; collaborated with engineers to integrate 91-schema OpenAPI specification and 41-page tutorial series.</li>
+            <li>Built full-stack AI assistant indexing 2,500 documents from 8 sources, achieving zero detectable hallucination through 20+ prompt engineering iterations.</li>
+            <li>Re-architected Plutus/Plinth documentation structure and led platform migration from Read the Docs to Docusaurus; expanded Blockfrost Platform API documentation by approximately 60%.</li>
+        </ul>
+    </div>
+
+    <div class="experience">
+        <div class="experience-header">
+            <div class="company-name">AJA Video Systems — Senior Technical Writer</div>
+            <div class="job-title">2016–2022</div>
+        </div>
+        <p class="company-description">AJA Video Systems designs and manufactures professional video hardware and software for broadcast, post-production, streaming, and ProAV markets.</p>
+        <p class="experience-summary">Identified documentation gaps and built solutions—including the company's first comprehensive REST API reference. Documented complex professional video systems spanning hardware, software, and streaming workflows. Established structured review processes and advocated for tooling improvements that benefited the broader team.</p>
+        <ul class="experience-bullets">
+            <li>Progressed from documenting mini-converters and processing cards to owning documentation for flagship Bridge Live streaming products—the company's most complex hardware-software systems.</li>
+            <li>Identified gap in customer-facing developer resources and initiated the company's first REST API documentation, enabling customers to control equipment remotely via browser.</li>
+            <li>Operated prototype equipment hands-on, configuring multi-product setups and tracking signal flows from source to destination to ensure accurate documentation.</li>
+        </ul>
+    </div>
+
+    <h2>Earlier Experience (2001–2015)</h2>
+    <ul class="earlier-list">
+        <li>Ensemble Designs (2008–2015): Video signal processing documentation</li>
+        <li>Technical Consultant (2008–2012): HP and enterprise clients</li>
+        <li>New College of California (2005–2007): Web platform transformation</li>
+        <li>Remend & Centrata (2003–2004): API/SDK documentation</li>
+        <li>H5 Technologies (2001–2002): Knowledge management platform</li>
+    </ul>
+
+    <h2>Education</h2>
+    <div class="education">
+        B.A., History and Philosophy — U.C. Davis, 1989
+    </div>
+</body>
+</html>
