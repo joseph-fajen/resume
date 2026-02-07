@@ -1,6 +1,6 @@
 # JOSEPH FAJEN
 
-**Staff Technical Writer | Documentation Systems Architect | Developer Documentation**
+**Documentation Systems Architect | Developer Documentation Specialist | Senior Technical Writer**
 
 Portland, OR | 530-264-6927 | joefajen@gmail.com | [LinkedIn](https://www.linkedin.com/in/josephfajen7782211/) | [GitHub](https://github.com/joseph-fajen)
 
@@ -8,11 +8,11 @@ Portland, OR | 530-264-6927 | joefajen@gmail.com | [LinkedIn](https://www.linked
 
 ## Summary
 
-Technical writer who builds tools—documentation systems, full-stack AI assistants, custom agents. I dig deep into complex systems to translate chaos into structure and create authoritative sources of truth.
+I don't just write documentation. I build documentation tools and systems from the ground up: information architecture, docs-as-code infrastructure, cross-functional workflows, and strategic content – transforming disparate communications into a single source of truth that’s easy to search, navigate, and update.
 
 ---
 
-## Skills
+## Areas of expertise
 
 **Documentation:** Developer Documentation, Docusaurus, MDX, OpenAPI/Swagger, Information Architecture, Docs-as-Code Workflows
 
