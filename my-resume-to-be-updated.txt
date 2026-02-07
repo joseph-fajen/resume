@@ -1,25 +1,0 @@
-Joseph P. Fajen106 Prospect Street • Nevada City, CA 95959 • 530.264.6927joefajen@gmail.comSkills•	Effective people skills, positive attitude, team builder•	Ability to independently document complex technical information from concept to completion•	Excellent writing, editing and proofreading skills•	Strong conceptual and analytical abilities•	Passionate about writing developer documentation•	Experience writing and debugging JavaScript code•	Understanding of jQuery, XML, JSONSoftware/ToolsAdobe InDesign, Adobe RoboHelp, Adobe FrameMaker, Adobe Illustrator, Adobe Photoshop, Arbortext, ColdFusion, Quark, MS Office, Visio, Dreamweaver, GitHub, WinCVS, Code EditorsExperience2016 to present | Sr. Technical Writer, AJA VIDEO SYSTEMS, Grass Valley, CA
-Technical writer for established business that designs and manufactures video signal processing equipment for the video broadcast industry. Re-organized and re-wrote a REST API reference and user guide collaborating closely with several engineers. 
-2008 to 2016 | Contract Sr. Technical Writer, ENSEMBLE DESIGNS, Grass Valley, CA
-Technical writer for video signal equipment manufacturer. Developed new documentation template and structure for new, more complex product line. 
-2013 to 2015 | Tutor, CODE HS, San Francisco, CA
-Evaluated JavaScript code assignments submitted by students. Answered questions and offered guidance to help students complete coding assignments successfully. Wrote and submitted many dozens of coding assignments to increase my experience writing code. 
-2009 to 2011 | Contract Sr. Technical Writer, HP, Cupertino, CA
-Collaborated with team of technical writers on documentation set for email archiving applications for the cloud. 
-2005 to 2007 | Web Production and Writer, NEW COLLEGE OF CALIFORNIA, 
-San Francisco, CA
-Worked closely with the Director of Web Development, Director of Marketing and the Graphic Designer to produce and maintain web pages for New College’s web site (www.newcollege.edu) using Dreamweaver and ColdFusion. 2003 to 2004 | Contract Sr. Technical Writer, CENTRATA, INC., Redwood City, CA
-Sole technical writer for a start-up software company that offers solutions in IT Services Delivery Management. Document sets included a reference guide for a developer tool, two online help systems (developer and end-user audience), and an installation and deployment guide. 
-2001 to 2002 | Principal Technical Writer, H5 TECHNOLOGIES, San Francisco, CA
-Sole technical writer for a start-up software company that offers a knowledge management solution for determining the subject matter of unstructured text. Wrote a short API guide for an integration interface. Wrote a JavaScript function and fixed HTML layout bugs for the browser-based user interface.
-2001 | Contract Sr. Technical Writer, VICINITY CORPORATION, Sunnyvale, CA
-Contract technical writer for an established software company that offers enterprise location services solutions across Web, wireless and speech platforms. Re-wrote, edited and re-organized portions of an API developer’s guide. 
-2001 | Contract Sr. Technical Writer, SV TECHNOLOGY, San Francisco, CA
-Sole technical writer for a start-up software company targeting the knowledge management needs of law firms. 
-2000 to 2001 | Director of Technical Documentation, CREATIONWARE SOLUTIONS, 
-San Francisco, CA
-Sole technical writer for start-up software company. Wrote documentation from scratch including Happy Engineer’s Guide and Implementation Guide. Worked closely with software engineers to establish template for internal Perl code documentation in POD format.
-2000 | Sr. Technical Writer, CALYPSO TECHNOLOGY, San Francisco, CA
-Sole technical writer for start-up software company developing a Java-based securities trading software application for financial institutions. Documentation set included User Manual, System Manual, Developer’s Manual and API Reference Manual. 
-1998 to 2000 | Technical Writer, FAIR ISAAC, San Rafael, CA
-Member of medium-sized technical publications department for an established company that offers solutions for automated credit decisions and analytics. Worked closely with a Java software engineer.Recent Course Work2018 | Creating Information 4.0: How to Design What Nobody Knows Yet•	Offered through the Society for Technical Communication•	Taught by Ray Gallon, President and Co-Founder, The Transformation Society•	Focus of the course was about designing highly context-sensitive information flowsEducationB.A., Philosophy and History, University of California, DavisProfessional AffiliationsMember, Society for Technical CommunicationJoseph P. Fajen				        2
