@@ -30,11 +30,11 @@ I don't just write documentation. I build documentation tools and systems from t
 
 Input Output Global (IOG), originally IOHK, is the blockchain research and engineering company that created and maintains the Cardano protocol.
 
-- Authored and curated 17,900+ lines of documentation for a smart contract platform across 124 files over 13 months, accounting for 78% of repository commits and 59 merged PRs.
+- Authored and curated 17,900+ lines of documentation for a smart contract platform across 124 files over 13 months, accounting for 78% of repository commits and 59 merged PRs
 
-- Designed information architecture with 5 user personas and visual pathway diagrams; collaborated with engineers to integrate 91-schema OpenAPI specification and 41-page tutorial series.
+- Designed information architecture with 5 user personas and visual pathway diagrams; collaborated with engineers to integrate 91-schema OpenAPI specification and 41-page tutorial series
 
-- Built full-stack AI assistant indexing 2,500 documents from 8 sources, achieving zero detectable hallucination through 20+ prompt engineering iterations.
+- Built full-stack AI assistant indexing 2,500 documents from 8 sources, achieving zero detectable hallucination through 20+ prompt engineering iterations
 
 ---
 
@@ -42,11 +42,11 @@ Input Output Global (IOG), originally IOHK, is the blockchain research and engin
 
 AJA Video Systems designs and manufactures professional video hardware and software for broadcast, post-production, streaming, and ProAV markets.
 
-- Owned documentation for flagship streaming products, including the company's most complex hardware-software systems.
+- Owned documentation for flagship streaming products, including the company's most complex hardware-software systems
 
-- Identified gap in customer-facing developer resources and initiated the company's first REST API documentation, enabling customers to control equipment remotely via browser.
+- Identified gap in customer-facing developer resources and initiated the company's first REST API documentation, enabling customers to control equipment remotely via browser
 
-- Ensured accurate documentation by configuring multi-product setups and tracking signal flows from source to destination.
+- Ensured accurate documentation by configuring multi-product setups and tracking signal flows from source to destination
 
 ---
 
@@ -54,11 +54,11 @@ AJA Video Systems designs and manufactures professional video hardware and softw
 
 Ensemble Designs manufactures video signal processing and routing equipment for broadcast, post-production, and live event production.
 
-- Documented signal processing products across the Avenue and BrightEye NXT product lines for broadcast and mobile production markets.
+- Documented signal processing products across the Avenue and BrightEye NXT product lines for broadcast and mobile production markets
 
-- Owned documentation for the company's most complex products—the Avenue 9430/9440 flexible matrix router and BrightEye NXT compact routers—featuring innovative configurable I/O that broke from industry-standard fixed architectures.
+- Owned documentation for the company's most complex products—the Avenue 9430/9440 flexible matrix router and BrightEye NXT compact routers—featuring innovative configurable I/O that broke from industry-standard fixed architectures
 
-- Built eight years of domain expertise in professional video technology, enabling immediate productivity when transitioning to AJA Video Systems.
+- Built eight years of domain expertise in professional video technology, enabling immediate productivity when transitioning to AJA Video Systems
 
 ---
 
