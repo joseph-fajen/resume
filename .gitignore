@@ -1,2 +1,32 @@
-# Source certificate PDFs (not needed in repo)
+# Keep only the canonical resume and GitHub Pages files public
+# Everything else stays local
+
+# Job applications (private)
+jobs/
+
+# Archive (historical versions, variations)
+archive/
+
+# Build system
+build.py
+generate-pdf.py
+templates/
+output/
+source/
+
+# Reference materials
+reference/
+
+# Documentation (local only)
+README.md
+CLAUDE.md
+RESUME-NOTES.md
+BEFORE-EDITING.md
+.agents/
+
+# Other content
+linkedin-profile.md
+resume-stylesheet.css
+
+# Source certificates
 Course Certificates/
