@@ -67,4 +67,9 @@ Ensemble Designs manufactures video signal processing and routing equipment for 
 **Agentic Coding Course** — Dynamous, 2025–2026
 Systematic methodology for AI-assisted development: structured prompt templates, deliberate planning, and context engineering using the PIV Loop (Plan → Implement → Validate) framework.
 
+**Hands-On Linux System Administration** — Packt, 2024
+
+**The Git & Github Bootcamp** — Udemy, 2023
+Comprehensive coverage of Git workflows including branching, merging, rebasing, and GitHub collaboration patterns essential for docs-as-code infrastructure.
+
 **B.A., History and Philosophy** — U.C. Davis, 1989
