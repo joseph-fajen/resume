@@ -56,9 +56,7 @@ Ensemble Designs manufactures video signal processing and routing equipment for 
 
 - Documented signal processing products across the Avenue and BrightEye NXT product lines for broadcast and mobile production markets
 
-- Owned documentation for the company's most complex products—the Avenue 9430/9440 flexible matrix router and BrightEye NXT compact routers—featuring innovative configurable I/O that broke from industry-standard fixed architectures
-
-- Built eight years of domain expertise in professional video technology, enabling immediate productivity when transitioning to AJA Video Systems
+- Owned documentation for complex video router products featuring innovative configurable I/O that revolutionized industry-standard fixed architectures
 
 ---
 
