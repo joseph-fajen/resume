@@ -10,6 +10,7 @@ archive/
 # Build system
 build.py
 generate-pdf.py
+generate-application-pdf.py
 new-application.py
 generate-tracker.py
 templates/
