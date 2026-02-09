@@ -2,7 +2,7 @@
 
 **Documentation Systems Architect | Developer Documentation Specialist | Senior Technical Writer**
 
-Portland, OR | 530-264-6927 | joefajen@gmail.com | [LinkedIn](https://www.linkedin.com/in/josephfajen7782211/) | [GitHub](https://github.com/joseph-fajen)
+Portland, OR | 530-264-6927 | joefajen@gmail.com | linkedin.com/in/josephfajen7782211 | github.com/joseph-fajen
 
 ---
 
@@ -70,4 +70,4 @@ Systematic methodology for AI-assisted development: structured prompt templates,
 **The Git & Github Bootcamp** — Udemy, 2023
 Comprehensive coverage of Git workflows including branching, merging, rebasing, and GitHub collaboration patterns essential for docs-as-code infrastructure.
 
-**B.A., History and Philosophy** — U.C. Davis, 1989
+**B.A., History and Philosophy** — U.C. Davis
