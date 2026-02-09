@@ -2,7 +2,7 @@
 
 **Documentation Systems Architect | Developer Documentation Specialist | Senior Technical Writer**
 
-Portland, OR | 530-264-6927 | joefajen@gmail.com | linkedin.com/in/josephfajen7782211 | github.com/joseph-fajen
+Portland, OR | 530-264-6927 | joefajen@gmail.com | [linkedin.com/in/josephfajen7782211](https://www.linkedin.com/in/josephfajen7782211/) | [github.com/joseph-fajen](https://github.com/joseph-fajen)
 
 ---
 
