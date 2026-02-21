@@ -42,11 +42,11 @@ Input Output Global (IOG), originally IOHK, is the blockchain research and engin
 
 AJA Video Systems designs and manufactures professional video hardware and software for broadcast, post-production, streaming, and ProAV markets.
 
-- Owned documentation for flagship streaming products, including the company's most complex hardware-software systems
+- Produced 70+ product manuals (30–120 pages each) over 6 years, including 120-page flagship guides for Bridge Live and Bridge NDI 3G — the company's most complex multi-path streaming systems; reduced support ticket volume by enabling comprehensive customer self-service
 
-- Identified gap in customer-facing developer resources and initiated the company's first REST API documentation, enabling customers to control equipment remotely via browser
+- Proactively initiated the company's first REST API documentation covering 12 products with 500+ operations, partnering with 2 engineers through iterative reviews to deliver developer resources that previously didn't exist
 
-- Ensured accurate documentation by configuring multi-product setups and tracking signal flows from source to destination
+- Validated documentation accuracy by configuring multi-product setups daily (encoders, routers, converters, monitors), tracking signal flows across 4+ devices; served as informal QA, catching errors before release
 
 ---
 
@@ -54,9 +54,17 @@ AJA Video Systems designs and manufactures professional video hardware and softw
 
 Ensemble Designs manufactures video signal processing and routing equipment for broadcast, post-production, and live event production.
 
-- Documented signal processing products across the Avenue and BrightEye NXT product lines for broadcast and mobile production markets
+- Documented 80+ signal processing products across Avenue and BrightEye lines, evolving templates as complexity grew; engaged directly with customers at NAB tradeshows to validate documentation approach, receiving positive feedback
 
-- Owned documentation for complex video router products featuring innovative configurable I/O that revolutionized industry-standard fixed architectures
+- Sole writer for 6 flagship router products featuring industry-first configurable I/O — a new paradigm replacing fixed-matrix architectures; created 60–80 page manuals from scratch that enabled sales and drove customer adoption
+
+---
+
+### CodeHS — Tutor (2013–2015, concurrent with Ensemble Designs)
+
+CodeHS is an online platform teaching computer science fundamentals to students through interactive JavaScript courses.
+
+- Strengthened student outcomes by evaluating JavaScript submissions and providing targeted debugging guidance; completed 50+ coding exercises to build hands-on development proficiency
 
 ---
 
