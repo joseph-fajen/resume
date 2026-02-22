@@ -40,3 +40,9 @@ og-image.html
 
 # Source certificates
 Course Certificates/
+
+# Fabric analysis outputs (local reference)
+fabric-outputs/
+
+# Logo assets (local only)
+marlowe-logo-*

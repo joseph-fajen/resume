@@ -14,7 +14,7 @@
     <style>
         @page {
             size: letter;
-            margin: 0.4in 0.49in 0.6in 0.49in;
+            margin: 0.4in 0.49in 0.5in 0.49in;
         }
 
         * {
@@ -35,7 +35,7 @@
         .container {
             max-width: 8.5in;
             margin: 0 auto;
-            padding: 0.5in 0.65in;
+            padding: 0.4in 0.65in;
         }
 
         /* Header */
@@ -106,38 +106,31 @@
             text-transform: uppercase;
             letter-spacing: 0.15em;
             color: #1a1a1a;
-            margin-bottom: 0.12in;
-            margin-top: 0.22in;
+            margin-bottom: 0.1in;
+            margin-top: 0.18in;
             padding-bottom: 0.05in;
             border-bottom: 1px solid #ccc;
         }
 
         /* Skills Section */
-        .skills {
+        .skills-compact {
             margin-bottom: 0.15in;
-        }
-
-        .skill-row {
-            display: flex;
-            margin-bottom: 0.04in;
             font-size: 9.5pt;
-            line-height: 1.4;
+            line-height: 1.5;
         }
 
-        .skill-label {
-            flex-shrink: 0;
-            width: 1.4in;
-            font-weight: 600;
-            color: #1a1a1a;
-        }
-
-        .skill-value {
+        .skills-compact p {
+            margin-bottom: 0.03in;
             color: #2a2a2a;
+        }
+
+        .skills-compact strong {
+            color: #1a1a1a;
         }
 
         /* Experience Sections */
         .experience {
-            margin-bottom: 0.2in;
+            margin-bottom: 0.15in;
             page-break-inside: avoid;
         }
 
@@ -197,7 +190,7 @@
         }
 
         .education-item {
-            margin-bottom: 0.12in;
+            margin-bottom: 0.08in;
         }
 
         .education-item .degree {
@@ -243,24 +236,12 @@
         <p>I don't just write documentation. I build documentation tools and systems from the ground up: information architecture, docs-as-code infrastructure, cross-functional workflows, and strategic content – transforming disparate communications into a single source of truth that's easy to search, navigate, and update.</p>
     </section>
 
-    <h2>Areas of Expertise</h2>
-    <div class="skills">
-        <div class="skill-row">
-            <span class="skill-label">Developer documentation</span>
-            <span class="skill-value">Docusaurus, MDX, OpenAPI/Swagger, information architecture, docs-as-code workflows, Git/GitHub</span>
-        </div>
-        <div class="skill-row">
-            <span class="skill-label">Documentation tool building</span>
-            <span class="skill-value">Python, TypeScript, JavaScript, Next.js, React, GitHub Actions</span>
-        </div>
-        <div class="skill-row">
-            <span class="skill-label">AI</span>
-            <span class="skill-value">Claude Code, LLM APIs (OpenAI, Anthropic, Gemini), Vector Databases, RAG Pipelines, Pydantic AI, Claude Agents SDK, MCP servers</span>
-        </div>
-        <div class="skill-row">
-            <span class="skill-label">Domains</span>
-            <span class="skill-value">Blockchain/Smart Contracts, REST APIs, Video Systems</span>
-        </div>
+    <h2>Technical Skills</h2>
+    <div class="skills-compact">
+        <p><strong>Documentation:</strong> Docusaurus | MDX | OpenAPI/Swagger | Information Architecture | Docs-as-Code | Git/GitHub</p>
+        <p><strong>Development:</strong> Python | TypeScript | JavaScript | React | Next.js | GitHub Actions</p>
+        <p><strong>AI:</strong> Claude Code | LLM APIs | Vector Databases | RAG Pipelines | Pydantic AI | Claude Agents SDK | MCP Servers</p>
+        <p><strong>Domains:</strong> Blockchain/Smart Contracts | REST APIs | Video Systems</p>
     </div>
 
     <h2>Experience</h2>

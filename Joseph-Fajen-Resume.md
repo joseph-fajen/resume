@@ -12,15 +12,15 @@ I don't just write documentation. I build documentation tools and systems from t
 
 ---
 
-## Areas of expertise
+## Technical Skills
 
-**Developer documentation:** Docusaurus, MDX, OpenAPI/Swagger, information architecture, docs-as-code workflows, Git/GitHub
+**Documentation:** Docusaurus | MDX | OpenAPI/Swagger | Information Architecture | Docs-as-Code | Git/GitHub
 
-**Documentation tool building:** Python, TypeScript, JavaScript, Next.js, React, GitHub Actions
+**Development:** Python | TypeScript | JavaScript | React | Next.js | GitHub Actions
 
-**AI:** Claude Code, LLM APIs (OpenAI, Anthropic, Gemini), Vector Databases, RAG Pipelines, Pydantic AI, Claude Agents SDK, MCP servers
+**AI:** Claude Code | LLM APIs | Vector Databases | RAG Pipelines | Pydantic AI | Claude Agents SDK | MCP Servers
 
-**Domains:** Blockchain/Smart Contracts, REST APIs, Video Systems
+**Domains:** Blockchain/Smart Contracts | REST APIs | Video Systems
 
 ---
 
