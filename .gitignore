@@ -20,6 +20,7 @@ source/
 # Generated tracker files
 applications.md
 applications.csv
+jobs-applied-*.csv
 
 # Reference materials
 reference/
