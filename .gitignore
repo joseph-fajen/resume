@@ -4,6 +4,9 @@
 # Job applications (private)
 jobs/
 
+# Application data (rejections, etc.)
+data/
+
 # Archive (historical versions, variations)
 archive/
 
