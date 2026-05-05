@@ -1,81 +1,79 @@
 # JOSEPH FAJEN
 
-**Documentation Systems Architect | Developer Documentation Specialist | Senior Technical Writer**
+**Documentation Systems Architect, Developer Documentation Specialist, Senior Technical Writer**
 
-Portland, OR | 530-264-6927 | joefajen@gmail.com | [linkedin.com/in/josephfajen7782211](https://www.linkedin.com/in/josephfajen7782211/) | [github.com/joseph-fajen](https://github.com/joseph-fajen)
-
+Portland, OR, 530-264-6927, [joefajen@gmail.com](mailto:joefajen@gmail.com), [linkedin.com/in/josephfajen7782211](https://www.linkedin.com/in/josephfajen7782211/), [github.com/joseph-fajen](https://github.com/joseph-fajen)
 ---
 
-## Summary
+## Profile
 
-I don't just write documentation. I build documentation tools and systems from the ground up: information architecture, docs-as-code infrastructure, cross-functional workflows, and strategic content – transforming disparate communications into a single source of truth that’s easy to search, navigate, and update.
+* 20+ years of technical writing experience, focused on writing documentation, designing information architecture, and thinking about strategic content – transforming disparate communications into a single source of truth that's easy to search, navigate, and update.
+* Deep experience designing and building documentation tools from the ground up, integrating AI and LLMs, generating content, analyzing output, and validating information accuracy.
+* Experienced at engaging with a variety of audiences, from domain experts in AI and blockchain to high school students building their first application.
 
 ---
 
 ## Technical Skills
 
-**Documentation:** Docusaurus | MDX | OpenAPI/Swagger | Information Architecture | Docs-as-Code | Git/GitHub
-
-**Development:** Python | TypeScript | JavaScript | React | Next.js | GitHub Actions
-
-**AI:** Claude Code | LLM APIs | Vector Databases | RAG Pipelines | Pydantic AI | Claude Agents SDK | MCP Servers
-
-**Domains:** Blockchain/Smart Contracts | REST APIs | Video Systems
+* **Documentation:** HTML, CSS, Markdown, Docusaurus, MDX, OpenAPI/Swagger
+* **Development:** Python, TypeScript, JavaScript, React, Next.js, Git/GitHub, GitHub Actions
+* **AI:** Claude Code, LLM APIs, Vector Databases, RAG Pipelines, Pydantic AI, Claude Agents SDK, MCP Servers
+* **Domains:** AI & LLMs, Blockchain & Smart Contracts, REST APIs, Video Systems
 
 ---
 
 ## Experience
 
-### Input Output Global — Senior Technical Writer (2022–2025)
+### Senior Technical Writer, Input Output Global (2022–2025)
 
 Input Output Global (IOG), originally IOHK, is the blockchain research and engineering company that created and maintains the Cardano protocol.
 
-- Authored and curated 17,900+ lines of documentation for a smart contract platform across 124 files over 13 months, accounting for 78% of repository commits and 59 merged PRs
+* Authored and curated 17,900+ lines of documentation for a smart contract platform across 124 files over 13 months, accounting for 78% of repository commits and 59 merged PRs
+* Designed information architecture with 5 user personas and visual pathway diagrams; collaborated with engineers to integrate 91-schema OpenAPI specification and 41-page tutorial series
+* Built full-stack AI assistant indexing 2,500 documents from 8 sources, achieving zero detectable hallucination through 20+ prompt engineering iterations
 
-- Designed information architecture with 5 user personas and visual pathway diagrams; collaborated with engineers to integrate 91-schema OpenAPI specification and 41-page tutorial series
-
-- Built full-stack AI assistant indexing 2,500 documents from 8 sources, achieving zero detectable hallucination through 20+ prompt engineering iterations
-
----
-
-### AJA Video Systems — Senior Technical Writer (2016–2022)
+### Senior Technical Writer, AJA Video Systems (2016–2022)
 
 AJA Video Systems designs and manufactures professional video hardware and software for broadcast, post-production, streaming, and ProAV markets.
 
-- Produced 70+ product manuals (30–120 pages each) over 6 years, including 120-page flagship guides for Bridge Live and Bridge NDI 3G — the company's most complex multi-path streaming systems; reduced support ticket volume by enabling comprehensive customer self-service
+* Produced 70+ product manuals (30–120 pages each) over 6 years, including 120-page flagship guides for Bridge Live and Bridge NDI 3G — the company's most complex multi-path streaming systems; reduced support ticket volume by enabling comprehensive customer self-service
+* Proactively initiated the company's first REST API documentation covering 12 products with 500+ operations, partnering with 2 engineers through iterative reviews to deliver developer resources that previously didn't exist
+* Validated documentation accuracy by configuring multi-product setups daily (encoders, routers, converters, monitors), tracking signal flows across 4+ devices; served as informal QA, catching errors before release
 
-- Proactively initiated the company's first REST API documentation covering 12 products with 500+ operations, partnering with 2 engineers through iterative reviews to deliver developer resources that previously didn't exist
-
-- Validated documentation accuracy by configuring multi-product setups daily (encoders, routers, converters, monitors), tracking signal flows across 4+ devices; served as informal QA, catching errors before release
-
----
-
-### Ensemble Designs — Senior Technical Writer (2008–2016)
+### Senior Technical Writer, Ensemble Designs (2008–2016)
 
 Ensemble Designs manufactures video signal processing and routing equipment for broadcast, post-production, and live event production.
 
-- Documented 80+ signal processing products across Avenue and BrightEye lines, evolving templates as complexity grew; engaged directly with customers at NAB tradeshows to validate documentation approach, receiving positive feedback
+* Documented 80+ signal processing products across Avenue and BrightEye lines, evolving templates as complexity grew; engaged directly with customers at NAB tradeshows to validate documentation approach, receiving positive feedback
+* Sole writer for 6 flagship router products featuring industry-first configurable I/O — a new paradigm replacing fixed-matrix architectures; created manuals from scratch that enabled sales and drove customer adoption
 
-- Sole writer for 6 flagship router products featuring industry-first configurable I/O — a new paradigm replacing fixed-matrix architectures; created 60–80 page manuals from scratch that enabled sales and drove customer adoption
+## Other Projects
 
----
+* **ISEE v2 — Idea Synthesis and Extraction Engine (2026)**
+  Built a multi-model AI orchestration system that expands the possibility space through combinatorial synthesis (6 LLMs × 11 cognitive frameworks), then extracts breakthrough ideas through structured tournament debate. Includes operations dashboard with real-time cost tracking and observability. Project at: github.com/joseph-fajen/isee-v2.
 
-### CodeHS — Tutor (2013–2015, concurrent with Ensemble Designs)
+* **Book of Archon (2026)**
+  Created a 10-chapter official onboarding guide for Archon (archon.diy), a harness-building system for AI coding agents. Built using a custom adversarial AI workflow—Writer Agent vs. Attacker Agent with 7/10+ quality gates—ensuring rigorous accuracy and clarity. Submitted via PR, accepted and merged, now serving as the project's official user guide. Archon has 20k+ stars on GitHub.
 
-CodeHS is an online platform teaching computer science fundamentals to students through interactive JavaScript courses.
+* **Programming Tutor, CodeHS (2013-2015)**
 
-- Strengthened student outcomes by evaluating JavaScript submissions and providing targeted debugging guidance; completed 50+ coding exercises to build hands-on development proficiency
+CodeHS is an online platform teaching computer science fundamentals to students
+through interactive JavaScript courses. Evaluated course materials, reviewing and completing 50+ coding exercises for javascript proficiency.
 
 ---
 
 ## Education
 
 **Agentic Coding Course** — Dynamous, 2025–2026
-Systematic methodology for AI-assisted development: structured prompt templates, deliberate planning, and context engineering using the PIV Loop (Plan → Implement → Validate) framework.
+
+* Systematic methodology for AI-assisted development: structured prompt templates, deliberate planning, and context engineering using the PIV Loop (Plan → Implement → Validate) framework.
 
 **Hands-On Linux System Administration** — Packt, 2024
 
-**The Git & Github Bootcamp** — Udemy, 2023
-Comprehensive coverage of Git workflows including branching, merging, rebasing, and GitHub collaboration patterns essential for docs-as-code infrastructure.
+* Hands-on training in server administration, package management, Apache configuration, and system monitoring—foundational skills for managing documentation infrastructure and understanding production environments.
+
+**The Git & GitHub Bootcamp** — Udemy, 2023
+
+* Comprehensive coverage of Git workflows including branching, merging, rebasing, and GitHub collaboration patterns essential for docs-as-code infrastructure.
 
 **B.A., History and Philosophy** — U.C. Davis

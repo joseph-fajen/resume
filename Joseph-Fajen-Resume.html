@@ -6,7 +6,7 @@
     <title>Joseph Fajen - Documentation Systems Architect</title>
     <!-- Open Graph meta tags for LinkedIn and social sharing -->
     <meta property="og:title" content="Joseph Fajen - Resume">
-    <meta property="og:description" content="I don't just write documentation. I build documentation tools and systems from the ground up: information architecture, docs-as-code infrastructure, cross-functional workflows, and strategic content – transforming disparate communications into a single source of truth that's easy to search, navigate, and update.">
+    <meta property="og:description" content="20+ years of technical writing experience, focused on writing documentation, designing information architecture, and thinking about strategic content – transforming disparate communications into a single source of truth that's easy to search, navigate, and update.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://resume.joefajen.com">
     <meta property="og:image" content="https://resume.joefajen.com/og-image.png">
@@ -88,15 +88,34 @@
             margin-top: 0.15in;
         }
 
-        /* Summary Section */
-        .summary {
+        /* Profile Section */
+        .profile {
             margin: 0.2in 0 0.2in 0;
-                    }
+        }
 
-        .summary p {
-            font-size: 10.5pt;
-            line-height: 1.6;
+        .profile ul {
+            list-style: none;
+            padding-left: 0.15in;
+        }
+
+        .profile li {
+            margin-bottom: 0.08in;
+            line-height: 1.5;
             color: #2a2a2a;
+            position: relative;
+            padding-left: 0.12in;
+            font-size: 10pt;
+        }
+
+        .profile li::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.48em;
+            width: 4px;
+            height: 4px;
+            background-color: #1a1a1a;
+            border-radius: 50%;
         }
 
         /* Section Headers */
@@ -138,13 +157,13 @@
             margin-bottom: 0.08in;
         }
 
-        .company-name {
+        .job-title-company {
             font-size: 11pt;
             font-weight: 600;
             color: #1a1a1a;
         }
 
-        .job-title {
+        .dates {
             font-size: 10pt;
             color: #1a1a1a;
             font-weight: 500;
@@ -183,6 +202,30 @@
             border-radius: 50%;
         }
 
+        /* Other Projects Section */
+        .projects {
+            margin-bottom: 0.15in;
+        }
+
+        .project-item {
+            margin-bottom: 0.12in;
+            page-break-inside: avoid;
+        }
+
+        .project-title {
+            font-size: 10pt;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 0.04in;
+        }
+
+        .project-description {
+            font-size: 9.5pt;
+            color: #2a2a2a;
+            line-height: 1.45;
+            padding-left: 0.15in;
+        }
+
         /* Education */
         .education {
             font-size: 10pt;
@@ -202,6 +245,7 @@
             font-size: 9.5pt;
             color: #2a2a2a;
             margin-top: 0.03in;
+            padding-left: 0.15in;
         }
 
         /* Print optimization */
@@ -210,7 +254,7 @@
                 background-color: white;
             }
 
-            .experience {
+            .experience, .project-item {
                 page-break-inside: avoid;
             }
 
@@ -224,32 +268,36 @@
 <div class="container">
     <header>
         <h1>Joseph Fajen</h1>
-        <div class="title">Documentation Systems Architect | Developer Documentation Specialist | Senior Technical Writer</div>
+        <div class="title">Documentation Systems Architect, Developer Documentation Specialist, Senior Technical Writer</div>
         <div class="contact">
-            <div class="contact-line">Portland, OR<span>|</span><span class="nowrap">530-264-6927</span><span>|</span>joefajen@gmail.com</div>
+            <div class="contact-line">Portland, OR<span>|</span><span class="nowrap">530-264-6927</span><span>|</span><a href="mailto:joefajen@gmail.com">joefajen@gmail.com</a></div>
             <div class="contact-line"><a href="https://www.linkedin.com/in/josephfajen7782211/" target="_blank" rel="noopener noreferrer">linkedin.com/in/josephfajen7782211</a><span>|</span><a href="https://github.com/joseph-fajen" target="_blank" rel="noopener noreferrer">github.com/joseph-fajen</a></div>
         </div>
         <div class="divider"></div>
     </header>
 
-    <section class="summary">
-        <p>I don't just write documentation. I build documentation tools and systems from the ground up: information architecture, docs-as-code infrastructure, cross-functional workflows, and strategic content – transforming disparate communications into a single source of truth that's easy to search, navigate, and update.</p>
+    <section class="profile">
+        <ul>
+            <li>20+ years of technical writing experience, focused on writing documentation, designing information architecture, and thinking about strategic content – transforming disparate communications into a single source of truth that's easy to search, navigate, and update.</li>
+            <li>Deep experience designing and building documentation tools from the ground up, integrating AI and LLMs, generating content, analyzing output, and validating information accuracy.</li>
+            <li>Experienced at engaging with a variety of audiences, from domain experts in AI and blockchain to high school students building their first application.</li>
+        </ul>
     </section>
 
     <h2>Technical Skills</h2>
     <div class="skills-compact">
-        <p><strong>Documentation:</strong> Docusaurus | MDX | OpenAPI/Swagger | Information Architecture | Docs-as-Code | Git/GitHub</p>
-        <p><strong>Development:</strong> Python | TypeScript | JavaScript | React | Next.js | GitHub Actions</p>
-        <p><strong>AI:</strong> Claude Code | LLM APIs | Vector Databases | RAG Pipelines | Pydantic AI | Claude Agents SDK | MCP Servers</p>
-        <p><strong>Domains:</strong> Blockchain/Smart Contracts | REST APIs | Video Systems</p>
+        <p><strong>Documentation:</strong> HTML, CSS, Markdown, Docusaurus, MDX, OpenAPI/Swagger</p>
+        <p><strong>Development:</strong> Python, TypeScript, JavaScript, React, Next.js, Git/GitHub, GitHub Actions</p>
+        <p><strong>AI:</strong> Claude Code, LLM APIs, Vector Databases, RAG Pipelines, Pydantic AI, Claude Agents SDK, MCP Servers</p>
+        <p><strong>Domains:</strong> AI & LLMs, Blockchain & Smart Contracts, REST APIs, Video Systems</p>
     </div>
 
     <h2>Experience</h2>
 
     <div class="experience">
         <div class="experience-header">
-            <div class="company-name">Input Output Global — Senior Technical Writer</div>
-            <div class="job-title">2022–2025</div>
+            <div class="job-title-company">Senior Technical Writer, Input Output Global</div>
+            <div class="dates">2022–2025</div>
         </div>
         <p class="company-description">Input Output Global (IOG), originally IOHK, is the blockchain research and engineering company that created and maintains the Cardano protocol.</p>
         <ul class="experience-bullets">
@@ -261,8 +309,8 @@
 
     <div class="experience">
         <div class="experience-header">
-            <div class="company-name">AJA Video Systems — Senior Technical Writer</div>
-            <div class="job-title">2016–2022</div>
+            <div class="job-title-company">Senior Technical Writer, AJA Video Systems</div>
+            <div class="dates">2016–2022</div>
         </div>
         <p class="company-description">AJA Video Systems designs and manufactures professional video hardware and software for broadcast, post-production, streaming, and ProAV markets.</p>
         <ul class="experience-bullets">
@@ -274,25 +322,30 @@
 
     <div class="experience">
         <div class="experience-header">
-            <div class="company-name">Ensemble Designs — Senior Technical Writer</div>
-            <div class="job-title">2008–2016</div>
+            <div class="job-title-company">Senior Technical Writer, Ensemble Designs</div>
+            <div class="dates">2008–2016</div>
         </div>
         <p class="company-description">Ensemble Designs manufactures video signal processing and routing equipment for broadcast, post-production, and live event production.</p>
         <ul class="experience-bullets">
             <li>Documented 80+ signal processing products across Avenue and BrightEye lines, evolving templates as complexity grew; engaged directly with customers at NAB tradeshows to validate documentation approach, receiving positive feedback</li>
-            <li>Sole writer for 6 flagship router products featuring industry-first configurable I/O — a new paradigm replacing fixed-matrix architectures; created 60–80 page manuals from scratch that enabled sales and drove customer adoption</li>
+            <li>Sole writer for 6 flagship router products featuring industry-first configurable I/O — a new paradigm replacing fixed-matrix architectures; created manuals from scratch that enabled sales and drove customer adoption</li>
         </ul>
     </div>
 
-    <div class="experience">
-        <div class="experience-header">
-            <div class="company-name">CodeHS — Tutor</div>
-            <div class="job-title">2013–2015, concurrent with Ensemble Designs</div>
+    <h2>Other Projects</h2>
+    <div class="projects">
+        <div class="project-item">
+            <div class="project-title">ISEE v2 — Idea Synthesis and Extraction Engine (2026)</div>
+            <div class="project-description">Built a multi-model AI orchestration system that expands the possibility space through combinatorial synthesis (6 LLMs × 11 cognitive frameworks), then extracts breakthrough ideas through structured tournament debate. Includes operations dashboard with real-time cost tracking and observability. Project at: github.com/joseph-fajen/isee-v2.</div>
         </div>
-        <p class="company-description">CodeHS is an online platform teaching computer science fundamentals to students through interactive JavaScript courses.</p>
-        <ul class="experience-bullets">
-            <li>Strengthened student outcomes by evaluating JavaScript submissions and providing targeted debugging guidance; completed 50+ coding exercises to build hands-on development proficiency</li>
-        </ul>
+        <div class="project-item">
+            <div class="project-title">Book of Archon (2026)</div>
+            <div class="project-description">Created a 10-chapter official onboarding guide for Archon (archon.diy), a harness-building system for AI coding agents. Built using a custom adversarial AI workflow—Writer Agent vs. Attacker Agent with 7/10+ quality gates—ensuring rigorous accuracy and clarity. Submitted via PR, accepted and merged, now serving as the project's official user guide. Archon has 20k+ stars on GitHub.</div>
+        </div>
+        <div class="project-item">
+            <div class="project-title">Programming Tutor, CodeHS (2013-2015)</div>
+            <div class="project-description">CodeHS is an online platform teaching computer science fundamentals to students through interactive JavaScript courses. Evaluated course materials, reviewing and completing 50+ coding exercises for javascript proficiency.</div>
+        </div>
     </div>
 
     <h2>Education</h2>
@@ -303,6 +356,7 @@
         </div>
         <div class="education-item">
             <div class="degree">Hands-On Linux System Administration — Packt, 2024</div>
+            <div class="description">Hands-on training in server administration, package management, Apache configuration, and system monitoring—foundational skills for managing documentation infrastructure and understanding production environments.</div>
         </div>
         <div class="education-item">
             <div class="degree">The Git & Github Bootcamp — Udemy, 2023</div>
