@@ -58,7 +58,7 @@ Ensemble Designs manufactures video signal processing and routing equipment for 
 * **Programming Tutor, CodeHS (2013-2015)**
 
 CodeHS is an online platform teaching computer science fundamentals to students
-through interactive JavaScript courses. Evaluated course materials, reviewing and completing 50+ coding exercises for javascript proficiency.
+through interactive JavaScript courses. Evaluated course materials, reviewing and completing 50+ coding exercises for JavaScript proficiency.
 
 ---
 
