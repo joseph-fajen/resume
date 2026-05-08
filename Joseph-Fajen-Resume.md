@@ -35,7 +35,7 @@ Input Output Global (IOG), originally IOHK, is the blockchain research and engin
 AJA Video Systems designs and manufactures professional video hardware and software for broadcast, post-production, streaming, and ProAV markets.
 
 * Produced 70+ product manuals (30–120 pages each) over 6 years, including 120-page flagship guides for Bridge Live and Bridge NDI 3G — the company's most complex multi-path streaming systems; reduced support ticket volume by enabling comprehensive customer self-service
-* Proactively initiated the company's first REST API documentation covering 12 products with 500+ operations, partnering with 2 engineers through iterative reviews to deliver developer resources that previously didn't exist
+* Proactively initiated the company's first REST API documentation—an 8-chapter developer guide covering 7 products across the Ki Pro and HELO lines; partnered with engineers through iterative reviews to deliver developer resources that previously didn't exist
 * Validated documentation accuracy by configuring multi-product setups daily (encoders, routers, converters, monitors), tracking signal flows across 4+ devices; served as informal QA, catching errors before release
 
 ### Senior Technical Writer, Ensemble Designs (2008–2016)
