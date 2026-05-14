@@ -1,6 +1,6 @@
 # JOSEPH FAJEN
 
-Portland, OR, 530-264-6927, [joefajen@gmail.com](mailto:joefajen@gmail.com), [linkedin.com/in/josephfajen7782211](https://www.linkedin.com/in/josephfajen7782211/), [github.com/joseph-fajen](https://github.com/joseph-fajen)
+Portland, OR, 530-264-6927, [joefajen@gmail.com](mailto:joefajen@gmail.com), [linkedin.com/in/josephfajen7782211](https://www.linkedin.com/in/josephfajen7782211/), [github.com/joseph-fajen](https://github.com/joseph-fajen), [josephfajen.mintlify.app](https://josephfajen.mintlify.app/)
 ---
 
 ## Profile
@@ -28,7 +28,7 @@ Input Output Global (IOG), originally IOHK, is the blockchain research and engin
 
 * Authored and curated 17,900+ lines of documentation for a smart contract platform across 124 files over 13 months, accounting for 78% of repository commits and 59 merged PRs
 * Designed information architecture with 5 user personas and visual pathway diagrams; collaborated with engineers to integrate 91-schema OpenAPI specification and 41-page tutorial series
-* Built full-stack AI assistant indexing 2,500 documents from 8 sources, achieving zero detectable hallucination through 20+ prompt engineering iterations
+* Built the Essential Cardano AI Assistant—a RAG chatbot indexing 2,500 documents from 8 sources; 20+ prompt engineering iterations with adversarial testing, no hallucinations detected
 
 ### Senior Technical Writer, AJA Video Systems (2016–2022)
 
