@@ -51,3 +51,6 @@ fabric-outputs/
 
 # Logo assets (local only)
 marlowe-logo-*
+
+# References (contact info, private)
+references.md
