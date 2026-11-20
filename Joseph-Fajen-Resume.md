@@ -22,6 +22,14 @@ Portland, OR, 530-264-6927, [joefajen@gmail.com](mailto:joefajen@gmail.com), [li
 
 ## Experience
 
+### Senior Developer Educator, Rippling (Jul 2026 – Nov 2026)
+
+Rippling is an all-in-one platform for HR, IT, and finance, built on a single employee graph.
+
+* Wrote a customer architecture story on syncing Salesforce job codes into Rippling with Rippling Functions; interviewed the forward-deployed engineers and the customer, and published it on Rippling's developer site
+* Wrote and delivered for review engineering-blog posts on MCP agent-to-agent handoff, AI-built managed connectors, and LLM tool design, working directly with platform engineers as SMEs
+* Built a repeatable LLM classification workflow that compared 7 models to audit 25 engineering blog posts by theme (84% agreement), handed off with calibration notes and run instructions
+
 ### Senior Technical Writer, Input Output Global (2022–2025)
 
 Input Output Global (IOG), originally IOHK, is the blockchain research and engineering company that created and maintains the Cardano protocol.
@@ -40,23 +48,20 @@ AJA Video Systems designs and manufactures professional video hardware and softw
 
 ### Senior Technical Writer, Ensemble Designs (2008–2016)
 
-Ensemble Designs manufactures video signal processing and routing equipment for broadcast, post-production, and live event production.
+Ensemble Designs manufactures broadcast video signal processing and routing equipment.
 
-* Documented 80+ signal processing products across Avenue and BrightEye lines, evolving templates as complexity grew; engaged directly with customers at NAB tradeshows to validate documentation approach, receiving positive feedback
-* Sole writer for 6 flagship router products featuring industry-first configurable I/O — a new paradigm replacing fixed-matrix architectures; created manuals from scratch that enabled sales and drove customer adoption
+* Documented 80+ signal processing products, including sole authorship of manuals for 6 flagship routers with industry-first configurable I/O; validated the documentation approach directly with customers at NAB tradeshows
 
 ## Other Projects
 
 * **ISEE v2 — Idea Synthesis and Extraction Engine (2026)**
-  Built a multi-model AI orchestration system that expands the possibility space through combinatorial synthesis (6 LLMs × 11 cognitive frameworks), then extracts breakthrough ideas through structured tournament debate. Includes operations dashboard with real-time cost tracking and observability. Project at: github.com/joseph-fajen/isee-v2.
+  Built a multi-model AI orchestration system that generates ideas through combinatorial synthesis (6 LLMs × 11 cognitive frameworks) and ranks them through structured tournament debate, with a real-time cost-tracking dashboard. github.com/joseph-fajen/isee-v2
 
 * **Book of Archon (2026)**
-  Created a 10-chapter official onboarding guide for Archon (archon.diy), a harness-building system for AI coding agents. Built using a custom adversarial AI workflow—Writer Agent vs. Attacker Agent with 7/10+ quality gates—ensuring rigorous accuracy and clarity. Submitted via PR, accepted and merged, now serving as the project's official user guide. Archon has 20k+ stars on GitHub.
+  Created the 10-chapter official onboarding guide for Archon (archon.diy, 20k+ GitHub stars), a harness-building system for AI coding agents, using an adversarial Writer Agent vs. Attacker Agent workflow with 7/10+ quality gates. Merged via PR as the project's official user guide.
 
 * **Programming Tutor, CodeHS (2013-2015)**
-
-CodeHS is an online platform teaching computer science fundamentals to students
-through interactive JavaScript courses. Evaluated course materials, reviewing and completing 50+ coding exercises for JavaScript proficiency.
+  Tutored students in CodeHS's interactive JavaScript courses; evaluated course materials and completed 50+ coding exercises by hand.
 
 ---
 
@@ -64,14 +69,8 @@ through interactive JavaScript courses. Evaluated course materials, reviewing an
 
 **Agentic Coding Course** — Dynamous, 2025–2026
 
-* Systematic methodology for AI-assisted development: structured prompt templates, deliberate planning, and context engineering using the PIV Loop (Plan → Implement → Validate) framework.
-
 **Hands-On Linux System Administration** — Packt, 2024
 
-* Hands-on training in server administration, package management, Apache configuration, and system monitoring—foundational skills for managing documentation infrastructure and understanding production environments.
-
 **The Git & GitHub Bootcamp** — Udemy, 2023
-
-* Comprehensive coverage of Git workflows including branching, merging, rebasing, and GitHub collaboration patterns essential for docs-as-code infrastructure.
 
 **B.A., History and Philosophy** — U.C. Davis
